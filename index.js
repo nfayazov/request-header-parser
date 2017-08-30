@@ -9,6 +9,6 @@ app.get('/', function(req, res) {
    })
 })
 
-app.listen("process.env.PORT", function() {
+app.listen(process.env.PORT, function() {
    console.log("It's working")
 })
